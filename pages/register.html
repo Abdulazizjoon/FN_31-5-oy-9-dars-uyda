@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>anime register page</title>
+    <link rel="stylesheet" href="../css/register.css" />
+    <link rel="shortcut icon" href="./img/Без названия.png8" type="image/x-icon">
+  </head>
+  <body class="">
+    <div class="maincontainer">
+      <form action="#">
+        <h2>Sign up</h2>
+        <div class="input-field">
+          <input type="text" name="name" id="name" required />
+          <label for="name">Enter your name</label>
+        </div>
+        <div class="input-field">
+          <input type="text" name="mail" id="mail" required />
+          <label for="mail">Enter your E-mail</label>
+        </div>
+        <div class="input-field">
+          <input type="password" name="password" id="password" required />
+          <label for="password">Enter your Password</label>
+        </div>
+        <div class="input-field">
+          <input type="password" name="password" id="pasword" required />
+          <label for="password">Confirm Password</label>
+        </div>
+        <div class="password-options">
+          <label for="remember">
+            <input type="checkbox" id="remember" />
+            <p>Remember me</p>
+          </label>
+
+          <a href="#">Forgot Password</a>
+        </div>
+        <button type="submit" id="btn">Log In</button>
+        <div class="account-options">
+          <p>Don't have an account?<a href="#">Register</a></p>
+        </div>
+      </form>
+    </div>
+
+    <script src="../js/register.js" type="module"></script>
+  </body>
+</html>
