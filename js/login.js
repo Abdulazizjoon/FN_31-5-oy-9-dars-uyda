@@ -55,14 +55,14 @@ function isvalid(data) {
   return true;
 }
 
-async function sorov(user) {
+async function sorov(users) {
   try {
     let response = await fetch(
       `https://auth-rg69.onrender.com/api/auth/signin`,
       {
         method: "POST",
         headers: {
-          "Content-Type": "application/json",
+          "Content-type": "application/json",
         },
         body: JSON.stringify(users),
       }
